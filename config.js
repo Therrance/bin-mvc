@@ -18,7 +18,6 @@ var StudentController = new Controller({
         '#student-exams-button': 'updateExams'
     },
     updateExams: function(){
-        console.log(this.model.takeExam())
         this.model.takeExam();
     }
 });
